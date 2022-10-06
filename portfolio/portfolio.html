@@ -1,0 +1,124 @@
+<!Doctype html>
+<head>
+    <link rel="stylesheet" href="portfolio.css" type="text/css">
+    <script src="portfolio.js"></script>
+    <title>THE SHABD SAHAY PORTFOLIO</title>
+    <!--navigation bar-->>
+    <div class="headnav" id="myheadnav">
+        <a href="portfolio.html"><img class="side" src="shabd port.png"></a>
+        
+        <a href="#home" class="add">Home</a>
+        <a href="#About" class="add">About</a>
+        <a href="#expirience" class="add">Skills</a>
+        <a href="#work" class="add">Work</a>
+        <a href="#nontechnical" class="add">Non-Technical</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars">  
+                <div class="dropdown">
+                    <button class="dropbtn">content</button>
+                    <div class="dropdown-content">
+                        <a href="#home">Home</a>
+                        <a href="#About">About</a>
+                        <a href="#expirience">Skills</a>
+                        <a href="#work">Work</a>
+                        <a href="#nontechnical">Non-Technical</a>
+                    </div>
+              </div>  
+            </i>
+        </a>
+    </div> 
+    <!--end of navbar-->
+</head>
+<body>
+    <!--start home-->>
+    <div onclick="NewTab()">
+    <h1 class="homestart"><em>PORTFOLIO: SHABD SAHAY.</em></h1>
+    <hr>
+    <P class="homecontent"><em>Shabd Sahay is a basic level programmer with 4 stars on Hackerrank for Python. He has a knowledege of web designing, HTML and CSS.</em></P>
+    <hr>
+    </div>
+    <!--end home-->
+    <!--about start-->
+    <h1 class="headabout"><em>ABOUT ME</em></h1>
+    <hr>
+    <div class="container2" id="container2">
+        
+        <div class="intro" id="About">
+            
+            <div id="column-txt">
+                
+                <p class="aboutme"><strong>Namaste!</strong> Here we present <strong>SHABD SAHAY</strong>.</p>
+                <p class="aboutme">Born on 13th of march 2003, hometown Agra. He did his schooling in Sun Valley International School in ghaziabad</p>
+                <p class="aboutme">His personality helped him to explore and innovate through interaction.</p>
+            </div>
+            <div id="column-img">
+                <img src="shabd sahay about.jpg" width="70%" height="520em" >
+            </div>
+        </div>
+    </div>
+</body>
+<!--end of about-->
+<div class="blank">
+       <p>.</p>
+       <p>.</p>
+       <p>.</p>
+
+</div>
+<!--expirience-->
+<h1 class="skillstart" id="expirience">MY SKILLS</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Front End</th>
+            <th>Back End</th>
+            <th>Tools</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="column mouse">HTML:5</td>
+            <td class="column mouse">mySQL</td>  
+            <td class="mouse">VisualStudioCode</td>  
+        </tr>
+        <tr>
+            <td class="column row mouse">CSS:3</td>
+            <td class="column row mouse">Nodejs</td> 
+            <td class="row mouse">GitHub</td> 
+        </tr>
+        <tr>
+            <td class="column mouse">Python</td>
+            <td class="column"> </td>
+            <td class="mouse">HackerRank</td>
+        </tr>
+        <tr>
+            <td class="column row mouse">javascript</td>
+            <td class="column row"> </td>
+            <td class="row"> </td>
+        </tr>
+        <tr>
+            <td class="column mouse">BootStrap</td>
+            <td class="column"> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td class="column row mouse">jquery</td>
+            <td class="column row"> </td>
+            <td class="row"> </td>
+        </tr>
+    </tbody>
+</table>
+<!--end od exp.-->
+<!--work-->
+<h1 class="skillstart" id="work">MY WORKS</h1>
+
+    <div class="works write"><a onclick="func()">My HackerRank ID</a></div>
+    <div class="works"><a onclick="funct()">My GitHub Account</a></div>
+</ul>
+<!--end work-->
+<!--start non tech-->
+<h1 class="skillstart" id="nontechnical">NON-TECHNICAL</h1>
+<p class="nontech">Other than developing, Shabd has talent in sketching and writing. He has green belt in taekwondo.</p>
+<!--end non tech-->
+<div class="bot">
+    <input type="button" value="contact me" class="right" onclick="info()">
+</div>
